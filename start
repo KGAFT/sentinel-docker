@@ -1,0 +1,5 @@
+ cp .env.example .env
+  docker compose up -d
+  cat server/data/id_ed25519.pub
+
+ sqlite3 server/data/db_v2.sqlite3 "SELECT id, info FROM peer;"
