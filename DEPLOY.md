@@ -20,7 +20,7 @@ This guide covers running the `hbbs` + `hbbr` stack on a remote Linux server
 ## 2. Get the code onto the server
 
 ```bash
-git clone <your-repo-url> sentinel
+git clone https://github.com/KGAFT/sentinel-docker sentinel
 cd sentinel
 ```
 
